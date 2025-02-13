@@ -1,10 +1,13 @@
 import React from 'react'
-import picture from '../assets/villa-5102551_1920.jpg'
+import Landing from '../Components/home/Landing'
+import OurServices from '../Components/home/OurServices'
+import "./screens.css";
 
 function Home() {
   return (
-    <div className='bg-[]'>
-
+    <div id='home'>
+      <Landing/>
+      <OurServices/>
     </div>
   )
 }
