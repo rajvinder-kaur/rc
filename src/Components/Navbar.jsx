@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router'
+import pic from '../assets//RC_CONSTRUCTIONS[1].png'
 
 function Navbar() {
   return (
-    <div className="navbar z-1 fixed  text-white bg-[#212020]  backdrop-blur-md shadow-sm">
+    <div className='navbar z-1 fixed text-white bg-[#0000007c]  backdrop-blur-sm shadow-sm py-3 px-[40px]'>
       <div className="navbar-start">
         <div className="dropdown bg-[#212020]">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,7 +23,7 @@ function Navbar() {
 
 
         </div>
-        <Link to='/' className="text-xl">RC Construction</Link>
+        <Link to='/' className="text-xl"> <img src={pic} alt="" className='w-[100px] ' /> </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
 
@@ -39,7 +40,7 @@ function Navbar() {
 
       </div>
       <div className="navbar-end">
-        <Link to='/Contact' className="btn btn-secondary text-white">Contact Us</Link>
+        <Link to='/Contact' className="btn btn-secondary text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 ">Contact Us</Link>
       </div>
     </div>
   )

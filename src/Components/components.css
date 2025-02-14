@@ -2,4 +2,22 @@
 
 .landing_div{
     background-image: url("../assets/villa.jpg");
+    background-attachment: fixed;
+}
+
+/*home/reasons.jsx*/
+
+.reasons_svg{
+    width:6vh;
+    text-align: center;
+    margin: auto;
+}
+.reason_primary{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+.reason_primary+li{
+    text-align: center;
+    font-size: 16px;
 }
