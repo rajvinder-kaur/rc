@@ -4,7 +4,7 @@ import Home from './Home'
 import WhyUs from './WhyUs'
 import Turnkey from './Turnkey'
 import Collaboration from './Collaboration'
-import Contact from './contact'
+import Contact from './Contact'
 import OurProjects from './OurProjects'
 
 
