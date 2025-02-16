@@ -9,3 +9,6 @@
   display: none; /* For Chrome, Safari, Edge */
 }
   
+body::-webkit-scrollbar {
+  display: none;
+}
