@@ -35,7 +35,7 @@ function Testimonials() {
     };
 
     return (
-        <div className='bg-[#D1683D] text-white p-[4vh] text-center mt-[5vh] '>
+        <div className='bg-amber-600 text-white p-[4vh] text-center mt-[5vh] '>
         <h2 className='text-[4vh] text-center text-white font-semibold my-4 md:my-[1vw]'>Client Testimonials </h2>
         <p>Real Stories, Real Satisfaction – Hear from Our Happy Clients!</p>
             <Slider className='bg-white text-stone-800 w-[70vw] md:w-[60vw] md:py-[9vh] mx-auto px-[3vw] my-4 rounded-xl py-[7vh] shadow-xl shadow-[#A64205]' {...settings}>

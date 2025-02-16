@@ -28,3 +28,9 @@
   margin-top: 12px;
   width: 80vw;
 }
+
+/* contact.jsx */
+.contact_landing{
+  background-image: url('../assets/contact.jpg');
+  background-size: cover;
+}

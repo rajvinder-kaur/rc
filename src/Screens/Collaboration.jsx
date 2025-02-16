@@ -1,8 +1,13 @@
 import React from 'react'
+import Landing from '../Components/Collaboration/landing.jsx'
+import Content from '../Components/Collaboration/Content.jsx'
 
 function Collaboration() {
   return (
-    <div>Collaboration</div>
+    <div>
+      <Landing/>
+      <Content/>
+    </div>
   )
 }
 

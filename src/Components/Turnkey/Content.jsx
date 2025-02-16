@@ -14,6 +14,13 @@ import CTA from '../../subcomponents/CTA'
 function Content() {
     return (
         <div>
+
+
+            {/* this is a banner section that displays icons and text, positioned using a grid  */}
+
+            {/* banner 1  */}
+
+
             <div class=" py-24 sm:py-32">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
                     <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 justify-center items-center">
@@ -45,6 +52,10 @@ function Content() {
                 </div>
             </div>
 
+            {/* A information section with a image and paragraphs , positioned using a flexbox  */}
+
+            {/* section 1 */}
+
             <section className='turnkey_content_section2'>
                 <div className='flex flex-col lg:flex-row justify-center items-center gap-[30px] '>
                     <img className=' w-[70vw] aspect-square  lg:w-[30vw] ' src={image} alt="" />
@@ -61,6 +72,8 @@ function Content() {
                 </div>
             </section>
 
+
+            {/*-------------------------------------- section 2-----------------------------------------------------------------  */}
 
 
             <section className='turnkey_content_section2'>
@@ -79,6 +92,8 @@ function Content() {
                     </div>
                 </div>
             </section>
+
+            {/* -----------------------------------------section 3---------------------------------------------------------------------------- */}
 
             <section className='turnkey_content_section2'>
                 <div className='flex flex-col lg:flex-row justify-center  items-center gap-[30px] '>
@@ -106,6 +121,10 @@ function Content() {
                 </div>
             </section>
 
+
+            {/*------------------------------ banner 2 ---------------------------------------------------------------- */}
+
+
             <div class=" bg-[#212020] mb-[20vh]  py-24 sm:py-32">
                 <h1 className='text-[4vh] w-full  text-center text-white font-semibold mb-4 md:mb-[2vw]' >Well-Structured Payment Plan</h1>
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -129,6 +148,10 @@ function Content() {
                 </div>
             </div>
 
+
+            {/*---------------------------------------------------- section 4 ---------------------------------------------------------- */}
+
+
             <section className='turnkey_content_section2'>
                 <div className='flex flex-col lg:flex-row justify-center  items-center gap-[30px] '>
                     <img src={blueprint} className=' w-[70vw] aspect-square  lg:order-2 lg:w-[30vw] ' alt="" />
@@ -141,6 +164,9 @@ function Content() {
                     </div>
                 </div>
             </section>
+
+
+            {/*-------------------------------- banner 3------------------------------------------------- */}
 
             <div class=" bg-[#212020] mb-[20vh]  py-24 sm:py-32">
                 <h1 className='text-[4vh] w-full  text-center text-white font-semibold mb-4 md:mb-[2vw]' >Reliable Warranty Support at RC Construction</h1>
@@ -165,6 +191,10 @@ function Content() {
                 </div>
             </div>
 
+
+            {/*-------------------------------------- section 5 ------------------------------------------------*/}
+
+
             <section className='turnkey_content_section2'>
                 <div className='flex flex-col lg:flex-row justify-center  items-center gap-[30px] '>
                     <img src={material} className=' w-[70vw] aspect-square  lg:w-[30vw] ' alt="" />
@@ -177,6 +207,12 @@ function Content() {
                     </div>
                 </div>
             </section>
+
+
+
+            {/*-------------------------------------- section 6 ------------------------------------------------*/}
+
+
 
             <section className='turnkey_content_section2'>
                 <div className='flex flex-col lg:flex-row justify-center  items-center gap-[30px] '>
@@ -191,6 +227,10 @@ function Content() {
                 </div>
             </section>
 
+
+            {/*-------------------------------------- section 7 ------------------------------------------------*/}
+
+
             <section className='turnkey_content_section2'>
                 <div className='flex flex-col lg:flex-row justify-center  items-center gap-[30px] '>
                     <img src={money} className=' w-[70vw] aspect-square   lg:w-[30vw] ' alt="" />
@@ -203,6 +243,10 @@ function Content() {
                     </div>
                 </div>
             </section>
+
+
+            {/*------------------------------------ banner 4 ------------------------------------ */}
+
 
             <div class=" bg-amber-600   py-24 sm:py-32">
                 <h1 className='text-[4vh] w-full  text-center text-white font-semibold mb-4 md:mb-[2vw]' >Why RC Construction is the Right Choice for You</h1>
@@ -231,6 +275,10 @@ function Content() {
                     </dl>
                 </div>
             </div>
+
+            {/* this is a CTA section for clients to schedule a meeting  */}
+
+            {/*------------------------------------ CTA 1----------------------------------- */}
 
             <CTA
                 bg_color='white'

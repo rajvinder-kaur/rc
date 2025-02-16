@@ -39,3 +39,11 @@
 .turnkey_content_section2{
   margin-bottom: 20vh;
 }
+
+/*collaboration/landing.jsx*/
+
+.collaboration_landing{
+  background-image:url("../assets/collab_landing.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
