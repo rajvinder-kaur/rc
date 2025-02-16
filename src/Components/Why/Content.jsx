@@ -5,6 +5,7 @@ import pic3 from '../../assets/smart_solution.jpg'
 import pic4 from '../../assets/quality_home.jpg'
 import { useNavigate } from "react-router";
 import { Link } from 'react-router'
+import CTA from '../../subcomponents/CTA'
 
 
 
@@ -273,15 +274,15 @@ function Content() {
                     }
                 </div>
             </div>
-
-            <div className='bg-[#D1683D] text-white py-[20px]'>
-                <div className='flex flex-col items-center '>
-                    <h1 className='font-medium text-[24px] text-center '>To discover why homes built by us offer superior quality and value for you.</h1>
-                    <p className='text-center text-[15px] my-[10px] w-[80vw]'>Discuss your home design & construction queries with us. And, understand how you'll have a surprise-free home construction experience at RC. Schedule a meeting today.</p>
-                    <button className='btn w-[80vw] shadow-none'
-                    > <Link to="https://docs.google.com/forms/d/e/1FAIpQLScYonzIT0laM-TSXoXbukjbEiMtXdEU8a2GLCrV7Xmv9geb1Q/viewform?usp=preview" >Schedule a meeting</Link> </button>
-                </div>
-            </div>
+            <CTA
+                bg_color='amber-600'
+                text_color='white'
+                button_color='white'
+                title='To discover why homes built by us offer superior quality and value for you.'
+                description='Discuss your home design & construction queries with us. And, understand how you will have a surprise-free home construction experience at RC. Schedule a meeting today.'
+                button='Schedule a meeting'
+                button_link='https://docs.google.com/forms/d/e/1FAIpQLScYonzIT0laM-TSXoXbukjbEiMtXdEU8a2GLCrV7Xmv9geb1Q/viewform?usp=preview'
+            />
 
         </div>
     )

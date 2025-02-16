@@ -3,8 +3,8 @@
 }
 /* project.jsx*/
 
-.project_about > div > p,.project_about > div >ul>li {
-  text-align: center;
+.project_about > div > p{
+  text-align: left;
 }
 .project_about{
     background-image: url('../assets/cranes.jpg');
@@ -19,4 +19,12 @@
 
 .Turnkey_landing{
   background-image: url("../assets/Turnkey_land.jpg");
+  background-attachment: fixed;
+}
+
+.Turnkey_landing>div>div>p{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 12px;
+  width: 80vw;
 }
