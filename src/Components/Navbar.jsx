@@ -4,7 +4,7 @@ import pic from '../assets//RC_CONSTRUCTIONS[1].png'
 
 function Navbar() {
   return (
-    <div className='navbar z-1 fixed text-white bg-[#0000007c]  backdrop-blur-sm shadow-sm py-3 px-[40px]'>
+    <div className='navbar z-1 fixed z-10 text-white bg-[#0000007c]  backdrop-blur-sm shadow-sm py-3 px-[40px]'>
       <div className="navbar-start">
         <div className="dropdown bg-[#212020]">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -4,6 +4,7 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import '../components.css';
 import { useNavigate } from "react-router";
+import CountUp from 'react-countup';
 
 
 export default function Landing() {
@@ -16,15 +17,16 @@ export default function Landing() {
                 <div className='mx-auto my-auto md:absolute md:bottom-0 md:left-0 md:p-10 '>
                     <ul className='flex flex-row gap-6'>
                         <li className='flex flex-col'>
-                            <div className='text-[5vh] md:text-[3vw] '>300 +</div>
+                        
+                            <div className='text-[5vh] md:text-[3vw] '><CountUp start={0} end={300} duration={3} separator=","  />+</div>
                             <div className=' mt-2 text-[18px] md:text-[18px] font-light'>Happy <br /> Clients</div>
                         </li>
                         <li className='flex flex-col'>
-                            <div className='text-[5vh] md:text-[3vw]'>500+</div>
+                            <div className='text-[5vh] md:text-[3vw]'><CountUp start={0} end={500} duration={3} separator=","  />+</div>
                             <div className=' mt-2 text-[18px] md:text-[18px] font-light'>Amazing <br /> Projects</div>
                         </li>
                         <li className='flex flex-col'>
-                            <div className=' text-[5vh] md:text-[3vw] '>10</div>
+                            <div className=' text-[5vh] md:text-[3vw] '><CountUp start={0} end={10} duration={3} separator=","  /></div>
                             <div className='mt-2 text-[18px] md:text-[18px]  font-light'>Awards <br /> Received</div>
                         </li>
                     </ul>

@@ -1,3 +1,22 @@
-#home::-webkit-scrollbar{
-    display: none;
+#home::-webkit-scrollbar {
+  display: none;
+}
+/* project.jsx*/
+
+.project_about > div > p,.project_about > div >ul>li {
+  text-align: center;
+}
+.project_about{
+    background-image: url('../assets/cranes.jpg');
+    background-size: cover;
+}
+.project_about > div > ul{
+    margin-top: 8px;
+    list-style: disc;
+}
+
+/* turnkey.jsx*/
+
+.Turnkey_landing{
+  background-image: url("../assets/Turnkey_land.jpg");
 }
