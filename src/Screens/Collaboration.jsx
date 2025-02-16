@@ -1,5 +1,5 @@
 import React from 'react'
-import Landing from '../Components/Collaboration/landing.jsx'
+import Landing from '../Components/Collaboration/Landing.jsx'
 import Content from '../Components/Collaboration/Content.jsx'
 
 function Collaboration() {
