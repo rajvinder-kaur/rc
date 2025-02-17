@@ -12,9 +12,7 @@ function contact() {
           <div>
             <div className='font-medium text-[18px] text-center '>Address</div>
             <div className='text-center text-[12px] my-[10px] '>RC Construction Private Limited
-6A, 6th Floor, Atma Ram House,
-1 Tolstoy Marg, Barakhamba Rd,
-New Delhi, Delhi 110001</div>
+Opp Wow water park, Bijli halt, Darbhanga </div>
           </div>
           <div>
             <div className='font-medium text-[18px] text-center'>Contact info</div>
