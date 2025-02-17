@@ -5,7 +5,7 @@ import Content from '../Components/Turnkey/Content'
 function Turnkey() {
   return (
     <div>
-      <div className='Turnkey_landing w-full h-[70vh] '>
+      <div className='Turnkey_landing w-full h-[85vh] '>
         <div className='bg-[#03030385] w-full h-full 
          flex items-center justify-center text-white'>
           <div className='flex flex-col justify-center items-center'>

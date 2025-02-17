@@ -2,7 +2,7 @@ import React from 'react'
 
 function Landing() {
     return (
-        <div className='why_landing_div bg-cover h-[70vh] bg-center  w-full text-white ' >
+        <div className='why_landing_div bg-cover h-[85vh] bg-center  w-full text-white ' >
             <div className='bg-[#0000007a] w-full h-full flex flex-col  items-center justify-center'>
                 <h1 className='text-[24px] font-medium text-center lg:text-[42px] '>Why Settle for Less ? <br />
                     When You Can Have the Best</h1>
